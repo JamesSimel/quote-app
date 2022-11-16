@@ -36,7 +36,7 @@ a{
     font-size: 1.2rem;
 }
 #container {
-    margin: 10% 30%;
+    margin: 10% 10%;
     padding: 10px 20px;
     display: flex;
     background-color: #3f3b3b;
@@ -44,14 +44,13 @@ a{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 8px;
     flex-direction: column;
-    width: 500px;
-    height: auto;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
 }
 
 #quote{
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     color: #f1f1f2;
     font-weight: 700;
     font-size: 1.6rem;
@@ -90,23 +89,7 @@ a{
     cursor: pointer;
 }
 
-#buy-coffee{
-    margin: -5% 43%;
-    text-transform: uppercase;
-    font-style: italic;
-    background-color: #0844eb;
-    padding: 10px 12px;
-    border-radius: 12px;
-    text-align: center;
-    cursor: pointer;
-    color: white !important;
-}
-
-#buy-coffee:hover{
-    background-color: #5e81e0;
-    font-weight: 700;
-}
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     #container {
         margin: 25% 0%;
         padding: 10px 20px;
@@ -138,5 +121,5 @@ a{
         margin-top: 1%;
         text-align: center;
     }
-}
+} */
 
