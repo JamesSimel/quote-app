@@ -1,5 +1,5 @@
 # QUOTE APP
-I made this app using REST API called the [Advice Slip API](https://api.adviceslip.com/).
+I made this app using RESTful API called the [Advice Slip API](https://api.adviceslip.com/).
 
 I used CSS, JS, HTML.
 
